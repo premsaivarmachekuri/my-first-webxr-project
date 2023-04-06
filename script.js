@@ -1,6 +1,6 @@
 import * as THREE from "https://cdn.skypack.dev/three@0.130.1/build/three.module.js";
 import { OrbitControls } from "https://cdn.skypack.dev/three@0.130.1/examples/jsm/controls/OrbitControls.js";
-import {ARButton} from "https://cdn.skypack.dev/three@0.130.1/examples/jsm/webxr/ARButton.js"
+import {ARButton} from "https://cdn.skypack.dev/three@0.130.1/examples/jsm/webxr/ARButton.js";
 
 const canvas = document.querySelector(".webxr");
 
@@ -56,17 +56,3 @@ console.log("Hello World")
 
 const button = ARButton.createButton(renderer);
 document.body.appendChild(button);
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
